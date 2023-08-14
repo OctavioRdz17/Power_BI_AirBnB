@@ -1,0 +1,41 @@
+
+## AirBnB Analisis Exploratorio
+
+El objetivo que se busca con el análisis de los datos seleccionados es realizar una análisis exploratorio de tipo descriptivo para entender el negocio de airbnb. 
+
+### Preguntas 
+
+* ¿Qué podemos describir con los datasets acerca del negocio de airbnb?
+* ¿Cuál es la mejor forma de invertir en AirBnb?
+* ¿Cómo se compara con otras alternativas de inversión?
+* Si presentamos nuestras conclusiones a un grupo inversor: ¿Qué propuestas le haríamos?
+* ¿En donde sugerimos invertir?
+* ¿En qué tipo de propiedad?
+
+
+### Archivos iniciales
+
+[calendar.csv](https://drive.google.com/file/d/1HtcP5tRK6UKoWKpzw9hdXJo56rgc2P0D/view?usp=drive_link) 
+incluye datos de ocupación, precio, etc.
+
+[listings.csv](https://drive.google.com/file/d/1SjvqBZJ9kb7fY_AwA-qQ53Wj-XP6wInI/view?usp=drive_link)
+Detalle de cada operación de Listing (incluye datos descriptivos de la vivienda (ambientes, host, noches mínimas y máximas, cantidad de reviews)
+
+[reviews.csv](https://drive.google.com/file/d/1jPyTUL7WJ7hblBa1TyF-TpsX9ybYOaKq/view?usp=drive_link)
+Datos de review de los usuarios.
+
+### Scraping
+
+Para la obtenciond e los precios de los apartamentos se utilizarons las siguientes librerias de Python
+
+    Beatifulsoup4, Pandas, Requests 
+
+Las pagina que se utilizo fue https://www.remax.com.ar/ 
+
+## Power Bi
+
+La integracion de todos los archivos se realizo con la herramienta Power Bi Desktop
+
+[proyectoAirBnB.pbix](https://drive.google.com/file/d/1nzrX10ozT8qPkr0sOgvLSwquV8SmcsZS/view?usp=drive_link)
+
+
